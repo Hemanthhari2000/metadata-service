@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "hemanth0407/metadata-services-test:v1"
+        DOCKER_IMAGE_NAME = "hemanth0407/metadata-services-test"
         DOCKER_USERNAME = "hemanth0407"
         DOCKER_PASSWORD = credentials('DOCKER_SECRET')
     }
